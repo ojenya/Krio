@@ -1,0 +1,227 @@
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('../fonts/ProximaNova-Regular.eot');
+    src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Proxima Nova Regular';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.btn {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-low {
+    width: 180px;
+    height: 48px;
+}
+
+.btn-high {
+    width: 220px;
+    height: 48px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-light-blue {
+    color: #ffffff;
+    background-color: #40a8e4;
+    transition: all 200ms ease-out;
+}
+
+.btn-light-blue:hover {
+    color: #40a8e4;
+    background-color: #ffffff;
+    transition: all 200ms ease-in;
+    border: 1px solid #40a8e4;
+}
+
+.btn-blue {
+    color: #ffffff;
+    background-color: #2388c2;
+    transition: all 200ms ease-out;
+}
+
+.btn-blue:hover {
+    color: #2388c2;
+    background-color: #ffffff;
+    transition: all 200ms ease-in;
+    border: 1px solid #2388c2;
+}
+
+.btn-blue-footer {
+    color: #ffffff;
+    background-color: #379CD6;
+    transition: all 200ms ease-out;
+    border: 1px solid #ffffff;
+}
+
+.btn-blue-footer:hover {
+    color: #379CD6;
+    background-color: #ffffff;
+    transition: all 200ms ease-in;
+    border: 1px solid #379CD6;
+}
+
+.btn-dark-blue {
+    color: #ffffff;
+    background-color: #22689e;
+    transition: all 200ms ease-out;
+}
+
+.btn-dark-blue:hover {
+    color: #22689e;
+    background-color: #ffffff;
+    transition: all 200ms ease-in;
+    border: 1px solid #22689e;
+}
+
+.btn-white {
+    color: #40a8e4;
+    background-color: #ffffff;
+    border: 1px solid #40a8e4;
+    transition: all 200ms ease-out;
+}
+
+.btn-white:hover {
+    color: #ffffff;
+    background-color: #40a8e4;
+    transition: all 200ms ease-in;
+}
+
+p {
+    font-size: 16px;
+    line-height: 125%;
+    color: #666666;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 26px;
+    line-height: 100%;
+    color: #353535;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 100%;
+    color: #353535;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 100%;
+    color: #353535;
+    text-transform: uppercase;
+}
+
+.darkest-blue {
+    background-color: #22689e;
+}
+
+.dark-blue {
+    background-color: #2388c2;
+}
+
+.blue {
+    background-color: #379cd6;
+}
+
+.light-blue {
+    background-color: #5fb4e4;
+}
+
+.lightest-blue {
+    background-color: #80c7ef;
+}
+
+.action-blue {
+    background-color: #40a8e4;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 100%;
+    /* identical to box height, or 12px */
+    /* Basefont */
+    color: #666666;
+}
+
+.title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 100%;
+    /* identical to box height, or 26px */
+    display: flex;
+    align-items: center;
+    /* Second Text Color */
+    color: rgba(51, 51, 51, 0.99);
+}
+
+.note {
+    margin-top: 26px;
+    padding: 11px 94px 15px 17px;
+    color: #666666;
+    font-size: 16px;
+    line-height: 125%;
+    border-left: 6px solid #379CD6;
+    background-color: #F8F8F8;
+}
+
+.subtitle {
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+    /* Second Text Color */
+    color: rgba(51, 51, 51, 0.99);
+}
+
+.line {
+    /* width: 852px; */
+    height: 1px;
+    /* Blue */
+    background: #379CD6;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+img {
+    width: inherit;
+    max-width: 100%;
+    height: inherit;
+}

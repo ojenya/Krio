@@ -1,0 +1,139 @@
+.container__institutes {
+    width: auto;
+}
+
+.institutes-banner {
+    height: 555px;
+}
+
+h1 {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h2 {
+    font-size: 26px;
+    line-height: 100%;
+}
+
+.institutes-banner h1 {
+    text-transform: uppercase;
+}
+
+.institutes-banner-info {
+    width: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background-color: #22689E;
+    height: inherit;
+}
+
+.institutes-img {
+    width: 100%;
+    overflow: hidden;
+    height: inherit;
+}
+
+.institutes-subtitle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+
+
+/* TABS */
+
+.institutes-content {
+    border-collapse: collapse;
+}
+
+.institutes-tabs {
+    position: relative;
+    margin: -75px 296px 100px 296px;
+    max-width: 1328px;
+    background-color: #fff;
+    border: 1px solid #eeeeee;
+}
+
+.tabs-item {
+    border: 1px solid #eeeeee;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+}
+
+.item-arrow {
+    width: 240px;
+}
+
+.item-title {
+    min-width: 240px;
+    max-width: 300px;
+}
+
+.item-title h4 {
+    text-align: center;
+    color: rgba(51, 51, 51, 0.99);
+    /* padding: 40px auto 40px auto; */
+}
+
+.item-img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* padding: 50px auto 50px auto; */
+    display: flex;
+    justify-content: center;
+}
+
+.item-desc {
+    display: flex;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    padding: 3% 134px 4% 134px;
+    /* width: 840px; */
+    width: 50%;
+}
+
+.item-desc p {
+    overflow: scroll;
+}
+
+.item-arrow i {
+    color: rgba(51, 51, 51, 0.99);
+}
+
+.item-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-arrow i:hover {
+    color: #40A8E4;
+}
+
+h4 {
+    font-size: 16px;
+    /* 18px */
+}
+
+@media screen and (max-width:1380px) {
+    .item-desc {
+        display: none;
+    }
+    .item-arrow {
+        border-left: 1px solid #eeeeee;
+    }
+}

@@ -1,0 +1,56 @@
+.services-head {
+    position: relative;
+    z-index: 4;
+    /* min-width: 528px; */
+    min-width: 800px;
+    max-width: 1328px;
+    min-height: 127px;
+    margin: -75px 296px auto 296px;
+    background-color: #2388C2;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.services-wrap {
+    max-width: 1328px;
+    margin: 0px 296px 0px 296px
+}
+
+.services-wrap .title {
+    margin-top: 40px;
+}
+
+.services-wrap p {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+
+/* 
+.note-list-left {
+    width: 50%;
+    float: left;
+}
+
+.note-list-right {
+    width: 50%;
+    overflow: auto;
+} */
+
+.note-list {
+    margin-bottom: 15px;
+}
+
+.note {
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width:1320px) {
+    .services-head {
+        margin: -75px 100px auto 100px;
+    }
+}
